@@ -1,4 +1,4 @@
-/* TABLE OF CONTENT
+/* TABLE OF CONTENTFooterme
 ======================================
 # 1. Main Styles
 # 2. White  Text*
@@ -1022,12 +1022,13 @@ header {
 
 .story_item {
   position: relative;
-  height: 1000px
+  height: 1000 ;
 }
 
 .story_item img {
   width: 100%;
   height: auto;
+
 
 }
 
@@ -1422,6 +1423,14 @@ header {
 .when_where .container {
 }
 
+
+.when_where_box {
+  display:flex;  
+  align-items: flex-start ; 
+  justify-content: space-between; 
+  width: auto    ;
+}
+
 .when_where_container {
   z-index: 2;
   position: relative;
@@ -1433,7 +1442,7 @@ header {
 }
 
 .when_where_container .title4 {
-  width: inherit;
+  width: auto;
   margin: 0;
 }
 
@@ -1462,7 +1471,7 @@ header {
   background-size: cover;
   width: 122px;
   height: 28px;
-  margin: 0 auto 20px
+  margin: 0 auto 10px
 }
 
 .pattern2 {
@@ -1487,12 +1496,12 @@ header {
 }
 
 .title1 {
-  font: 46px/48px Great Vibes;
+  font: 42px/44px Great Vibes;
 }
 
 .title1_2 {
   text-indent: -15px;
-  font: 52px/56px Great Vibes;
+  font: 45px/56px Great Vibes;
 }
 .box{
   padding: 20px;
@@ -1506,7 +1515,7 @@ header {
 }
 
 .title2 {
-  font: 56px/60px /*Roboto Condensed;*/ Playfair Display;
+  font: 46px/48px /*Roboto Condensed;*/ Playfair Display;
   margin: 0 0 13px 0;
   letter-spacing: -1px
 }
@@ -1514,6 +1523,7 @@ header {
 .title3 {
   font: 22px/32px /*Roboto Condensed;*/ Playfair Display;
   margin: 0 0 5px 0;
+  width: auto;
 }
 
 .title4 {
@@ -1824,11 +1834,42 @@ header {
 
 }
 
+
+
 @media (max-width: 768px) {
   .story_txt p, .story_title {
     margin: 0;
   }
 
+  .when_where_box {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .story_item {
+    height: 1200px;
+}
+
+  .story_item img{
+    height: auto;
+   
+   
+  }
+
+  .card0 {
+  }
+
+  .card {
+    margin: 0 0 0 2%;
+
+  }
+
+  .card2 
+  {
+    margin: 0 0 0 2%;
+
+  }
   .home_intro {
     background-attachment: scroll;
   }
@@ -1871,6 +1912,26 @@ header {
 @media (max-width: 480px) {
   .story_txt p {
     margin: 0;
+  }
+
+  .story_item {
+    height: 1200px;
+}
+
+  .story_item img{
+    height: auto;
+   
+   
+  }
+
+  .card0 {
+    margin-left: 0;
+  }
+
+  .when_where_box {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
   }
 
   .owl-controls {
@@ -1990,7 +2051,7 @@ header {
   }
 
   .story_item, .guest_wrapper {
-    height: auto;
+  
   }
 
   .guest_wrapper .owl-buttons, .registry .owl-buttons {
@@ -2064,8 +2125,8 @@ a.maplink:visited {
 
 .bg {
   width: 100%;
-  height: 900px;
   object-fit: cover;
+  height: 900px;
   top: 0;
   left: 0;
   z-index: -1;
@@ -2079,12 +2140,11 @@ a.maplink:visited {
   max-width: 700px;
   padding: 20px;
   border-radius: 10px;
-  position: absolute;
-  top: 60%;
-  left: 27%;
-  transition: ease 0.3s;
-    font: 22px/23px Great Vibes;
+  /* position: absolute; */
 
+  top: 530px;
+  transition: ease 0.3s;
+  font: 22px/23px Great Vibes;
 }
 
 .card {
@@ -2093,9 +2153,11 @@ a.maplink:visited {
   max-width: 400px;
   padding: 20px;
   border-radius: 10px;
-  position: absolute;
+  /* position: absolute;
   top: 300px;
-  left: 840px;
+  left: 840px; */
+  top: 100px;
+
   transition: ease 0.3s;
     font: 22px/23px Great Vibes;
 
@@ -2108,9 +2170,12 @@ a.maplink:visited {
   max-width: 400px;
   padding: 20px;
   border-radius: 10px;
-  position: absolute;
+  /* position: absolute;
   top: 300px;
-  left: 100px;
+  left: 100px; */
+
+  top: 200px;
+
   transition: ease 0.3s;
     font: 22px/23px Great Vibes;
 
