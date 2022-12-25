@@ -1835,11 +1835,16 @@ header {
   }
 
   .card {
-   top: -1600px;
+    position: absolute;
+
+   top: 320px;
+   left: 880px;
 
   }
   .card2 {
-   top: -880px;  
+    position: absolute;
+    left: 90px;
+   top: 680px;
   }
 }
 
