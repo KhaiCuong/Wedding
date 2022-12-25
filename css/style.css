@@ -1022,7 +1022,7 @@ header {
 
 .story_item {
   position: relative;
-  height: 1000 ;
+  height: auto;
 }
 
 .story_item img {
@@ -1843,12 +1843,17 @@ header {
 
   .when_where_box {
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    height: 1280px;
+  }
+  .when_where {
+    height: 1500px;
   }
 
+
   .story_item {
-    height: 1200px;
+    height: auto;
 }
 
   .story_item img{
@@ -1856,22 +1861,28 @@ header {
    
    
   }
-
-  .card0 {
+  .home_intro {
+    background-attachment: scroll;
+    background-position-x: 98%;
+    
   }
 
+  .card0 {
+    width: 100%;
+  }
   .card {
-    margin: 0 0 0 2%;
+    width: 100%;
 
   }
 
   .card2 
   {
-    margin: 0 0 0 2%;
+    width: 100%; 
 
   }
   .home_intro {
     background-attachment: scroll;
+    background-position-x: 70%;
   }
 
   .hotel {
@@ -1915,9 +1926,14 @@ header {
   }
 
   .story_item {
-    height: 1200px;
+    height: auto;
 }
 
+  .home_intro {
+  background-attachment: scroll;
+  background-position-x: 68%;
+  
+}
   .story_item img{
     height: auto;
    
@@ -1925,13 +1941,27 @@ header {
   }
 
   .card0 {
-    margin-left: 0;
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+
+  }
+
+  .card2 
+  {
+    width: 100%;
+
   }
 
   .when_where_box {
     flex-direction: column-reverse;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    height: 1580px;
+  }
+  .when_where {
+    height: 1800px;
   }
 
   .owl-controls {
@@ -2137,12 +2167,11 @@ a.maplink:visited {
 .card0 {
   background: #ffffffa0;
   width: 100%;
-  max-width: 700px;
+  max-width: 778px;
   padding: 20px;
   border-radius: 10px;
   /* position: absolute; */
-
-  top: 530px;
+  top: 0px;
   transition: ease 0.3s;
   font: 22px/23px Great Vibes;
 }
@@ -2150,13 +2179,13 @@ a.maplink:visited {
 .card {
   background: #ffffffa0;
   width: 100%;
-  max-width: 400px;
+  max-width: 520px;
   padding: 20px;
   border-radius: 10px;
   /* position: absolute;
   top: 300px;
   left: 840px; */
-  top: 100px;
+  top: 0px;
 
   transition: ease 0.3s;
     font: 22px/23px Great Vibes;
@@ -2167,14 +2196,14 @@ a.maplink:visited {
 .card2 {
   background: #ffffffa0;
   width: 100%;
-  max-width: 400px;
+  max-width: 546px;
   padding: 20px;
   border-radius: 10px;
   /* position: absolute;
   top: 300px;
   left: 100px; */
 
-  top: 200px;
+  top: 0px;
 
   transition: ease 0.3s;
     font: 22px/23px Great Vibes;
