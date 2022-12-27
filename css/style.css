@@ -1437,8 +1437,8 @@ header {
 }
 
 .when_where_container .title3 {
-  width: 300px;
-  margin: 0 auto
+  width: auto;
+  margin: 0 auto;
 }
 
 .when_where_container .title4 {
@@ -1964,6 +1964,7 @@ header {
   .box {
     width: 70%;
   }
+
 
   .wwi {
     display: flex;
