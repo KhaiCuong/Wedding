@@ -1853,6 +1853,11 @@ header {
     margin: 0 0 20px 0
   }
 
+  .box {
+    width: 70%;
+  }
+
+
   .gallery .owl-buttons {
     margin: -70px 0 0 0
   }
@@ -1864,6 +1869,16 @@ header {
 @media (max-width: 768px) {
   .story_txt p, .story_title {
     margin: 0;
+  }
+
+  .box {
+    width: 70%;
+  }
+
+
+
+  .title1_2 {
+    font-size: 40px;
   }
 
   .when_where_box {
@@ -1946,6 +1961,22 @@ header {
 }
 
 @media (max-width: 480px) {
+  .box {
+    width: 70%;
+  }
+
+  .wwi {
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+  }
+
+  .title1_2 {
+    font-size: 23px;
+  }
+  
+
   .story_txt p {
     margin: 0;
   }
